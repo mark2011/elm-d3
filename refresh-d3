@@ -1,0 +1,4 @@
+#!/bin/bash
+
+wget https://github.com/mbostock/d3/releases/download/v3.5.8/d3.zip
+unzip d3.zip d3.min.js
