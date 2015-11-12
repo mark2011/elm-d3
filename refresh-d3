@@ -1,4 +1,6 @@
 #!/bin/bash
 
-wget https://github.com/mbostock/d3/releases/download/v3.5.8/d3.zip
+echo "refreshing local copy of d3.min.js"
+rm -f d3.zip d3.min.js
+wget -q https://github.com/mbostock/d3/releases/download/v3.5.8/d3.zip
 unzip d3.zip d3.min.js
