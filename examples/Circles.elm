@@ -34,7 +34,7 @@ circles =
         |. num attr "cy"   150
         |. fun attr "cx"   (\_ i -> toString (25 + 50 * i))
         |. transition
-           |. delay (\_ _ -> 500)
+           |. duration (\_ _ -> 2000)
            |. num attr "r" 25
      |- update
         |. fun attr "fill" color
